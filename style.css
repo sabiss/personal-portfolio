@@ -59,6 +59,9 @@ body{
     font-weight: 600;
     font-size: 1.3em;
 }
+.lista:first-child{
+    margin-left: 0px;
+}
 .lista__links:hover{
     border-bottom: 3px solid #88d4ab;
 }
@@ -103,6 +106,102 @@ body{
     width: 25%;
     border-radius: 200px;
     box-shadow: 5px 7px 10px #358F80;
+}
+#interesses{
+    /* roxo */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px dashed #358F80;
+}
+.interesses__box{
+    /* Azul */
+    width: 85%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.local-da-img{
+    /* rosa */
+    width: 47%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+}
+.local-enunciado-e-interesses{
+    /* amarelo */
+    width: 47%;
+    height: 95%;
+}
+.interesses__enunciado{
+    /* vermelho */
+    height: 30%;
+    width: 100%;
+    background-color: #358F80;
+    border-radius: 300px;
+    border: 4px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interesses__enunciado___titulo{
+    font-size: 2.7em;
+    color: white;
+    font-weight: 600;
+}
+.interesses__interesses{
+    /* preto */
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    border-left: 4px solid #358F80;
+    border-right: 4px solid #358F80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-limitadora{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    background-color: #99e2b4;
+    border-radius: 10px;
+}
+.interesses__interesses___descricao{
+    font-size: 1.4em;
+    text-align: justify;
+    padding: 0px 15px;
+    line-height: 30px;
+}
+span{
+    border-bottom: 3px solid white;
+}
+.interesses__imagem{
+    width: 100%;
+}
+.custom-shape-divider-bottom-1639945991 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639945991 svg {
+    position: relative;
+    display: block;
+    width: calc(115% + 1.3px);
+    height: 97px;
+}
+
+.custom-shape-divider-bottom-1639945991 .shape-fill {
+    fill: #56AB91;
 }
 #skills{
     height: 150vh;
@@ -273,6 +372,33 @@ body{
         width: 55%;
         margin-top: 0px;
     }
+    #interesses{
+        height: auto;
+    }
+    .interesses__box{
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+    .local-enunciado-e-interesses{
+        height: 70%;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .interesses__enunciado{
+        margin-bottom: 20px;
+    }
+    .interesses__enunciado___titulo{
+        font-size: 2.2em;
+        text-align: center;
+        padding: 15px;
+    }
+    .interesses__interesses___descricao{
+        font-size: 1.3em;
+    }
+    .local-da-img{
+        display: none;
+    }
     .skills__enunciado{
         width: 70%;
     }
@@ -335,6 +461,33 @@ body{
         width: 30%;
         margin-top: 35px;
     }
+    #interesses{
+        height: auto;
+    }
+    .interesses__box{
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+    .local-enunciado-e-interesses{
+        height: 70%;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .interesses__enunciado{
+        margin-bottom: 20px;
+    }
+    .interesses__enunciado___titulo{
+        font-size: 2.2em;
+        text-align: center;
+        padding: 15px;
+    }
+    .interesses__interesses___descricao{
+        font-size: 1.3em;
+    }
+    .local-da-img{
+        display: none;
+    }
     .skills__enunciado{
         width: 70%;
     }
@@ -359,6 +512,39 @@ body{
     }
     .icon-instagram{
         width: 37%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1279px){
+    .lista{
+        display: none;
+    }
+    .cabecalho__box{
+        justify-content: center;
+    }
+    .apresentacao__descricao{
+        padding: 0px 20px;
+    }
+    .apresentacao__titulo{
+        font-size: 2.5em;
+    }
+    .box-limitadora{
+        height: 90%;
+        width: 80%;
+    }
+    .interesses__interesses___descricao{
+        font-size: 1.2em;
+    }
+    .interesses__enunciado___titulo{
+        font-size: 2.2em;
+    }
+    .interesses__enunciado{
+        height: 25%;
+    }
+    .interesses__interesses{
+        height: 75%;
+    }
+    .interesses__imagem{
+        width: 110%;
     }
 }
 @media only screen and (min-width: 1900px){
@@ -390,6 +576,17 @@ body{
     }
     .paragrafos-contatos{
         font-size: 2em;
+    }
+    .interesses__enunciado___titulo{
+        font-size: 5em;
+    }
+    .interesses__interesses___descricao{
+        font-size: 3.7em;
+        line-height: initial;
+    }
+    .box-limitadora{
+        width: 90%;
+        height: 90%;
     }
 }
 
