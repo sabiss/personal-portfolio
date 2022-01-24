@@ -793,9 +793,6 @@ body{
     #projetos{
         height: auto;
     }
-    .projetos__cards-grid{
-        width: 70%;
-    }
     .card{
         width: 500px;
         height: 550px;
