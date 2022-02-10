@@ -362,6 +362,9 @@ body{
 .dashboard{
     background: url('Mídias/dashboard.png') center / cover no-repeat;
 }
+.calculadora{
+    background: url('Mídias/calculadora.png') center / cover no-repeat;
+}
 .card__descricao{
     display: flex;
     justify-content: center;
