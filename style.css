@@ -365,6 +365,9 @@ body{
 .calculadora{
     background: url('Mídias/calculadora.png') center / cover no-repeat;
 }
+.padmemes{
+    background: url('Mídias/padmemes.png') center / cover no-repeat;
+}
 .card__descricao{
     display: flex;
     justify-content: center;
