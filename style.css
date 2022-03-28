@@ -243,7 +243,7 @@ body{
     border-radius: 20px;
     height: 200px;
     width: 48%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-shadow: 0px 0px 5px black;
     transition: all 0.8s;
 }
@@ -254,10 +254,33 @@ body{
 }
 .icons{
     width: 20%;
-    padding-left: 25px;
 }
-.barra-progresso{
-    width: 70%;
+.blackBar{
+    width: 330px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.progress{
+    height: 80%;
+    background-color: #036666;
+    margin-left: 4px;
+}
+.python {
+    width: 30%;
+}
+.css{
+    width: 45%;
+}
+.html{
+    width: 55%;
+}
+.cplusplus{
+    width: 35%;
+}
+.javascript{
+    width: 60%;
 }
 .skills__titulos{
     align-self: flex-start;
@@ -548,6 +571,10 @@ body{
         width:auto;
         margin-bottom: 35px;
     }
+    .blackBar{
+        width: 180px;
+        height: 30px;
+    }
     #projetos{
         height: auto;
     }
@@ -782,6 +809,7 @@ body{
     }
     .linguagens-box{
         height: 15%;
+        padding: 20px;
     }
     .skills__enunciado{
         font-size: 3em;
@@ -802,6 +830,9 @@ body{
     .box-limitadora{
         width: 90%;
         height: 90%;
+    }
+    .blackBar{
+        width: 400px;
     }
     .projetos__enunciado{
         font-size: 7em;
