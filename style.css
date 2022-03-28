@@ -349,7 +349,7 @@ body{
 }
 .card{
     width: 25%;
-    height: 350px;
+    height: 410px;
     display: grid;
     grid-template-rows: 0.5fr 0.8fr 0.9fr 0.4fr;
     border: 5px solid #036666;
