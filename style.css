@@ -689,6 +689,9 @@ body{
         width:auto;
         margin-bottom: 35px;
     }
+    .blackBar{
+        height: 45px;
+    }
     #projetos{
         height: auto;
     }
@@ -730,7 +733,7 @@ body{
         width: 37%;
     }
 }
-@media only screen and (min-width: 769px) and (max-width: 1279px){
+@media only screen and (min-width: 769px) and (max-width: 1000px){
     .lista{
         display: none;
     }
@@ -746,6 +749,70 @@ body{
     .box-limitadora{
         height: 90%;
         width: 80%;
+    }
+    .blackBar{
+        width: 200px;
+        height: 35px;
+    }
+    .interesses__interesses___descricao{
+        font-size: 1.2em;
+    }
+    .interesses__enunciado___titulo{
+        font-size: 2.2em;
+    }
+    .interesses__enunciado{
+        height: 25%;
+    }
+    .interesses__interesses{
+        height: 75%;
+    }
+    .interesses__imagem{
+        width: 110%;
+    }
+    #projetos{
+        height: auto;
+    }
+    .projetos__box{
+        width: 100%;
+    }
+    .projetos__enunciado{
+        width: 30%;
+        height: initial;
+        margin-left: 60px;
+    }
+    .projetos__enunciado img{
+        display: none;
+    }
+    .projetos__cards-grid{
+        width: 70%;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .card:nth-child(odd){
+        margin-right: 10px;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1279px){
+    .lista{
+        display: none;
+    }
+    .cabecalho__box{
+        justify-content: center;
+    }
+    .apresentacao__descricao{
+        padding: 0px 20px;
+    }
+    .apresentacao__titulo{
+        font-size: 2.5em;
+    }
+    .box-limitadora{
+        height: 90%;
+        width: 80%;
+    }
+    .blackBar{
+        width: 250px;
+        height: 35px;
     }
     .interesses__interesses___descricao{
         font-size: 1.2em;
