@@ -394,6 +394,9 @@ body{
 .weatherForecast{
     background: url('Mídias/weatherForecast.png') center / cover no-repeat;
 }
+.todolist{
+    background: url('Mídias/toDoList.jpg') center / cover no-repeat;
+}
 .card__descricao{
     display: flex;
     justify-content: center;
