@@ -268,19 +268,22 @@ body{
     margin-left: 4px;
 }
 .python {
-    width: 30%;
+    width: 20%;
 }
 .css{
-    width: 45%;
+    width: 60%;
 }
 .html{
-    width: 55%;
+    width: 97%;
 }
 .cplusplus{
     width: 35%;
 }
 .javascript{
     width: 60%;
+}
+.java{
+    width: 20%;
 }
 .skills__titulos{
     align-self: flex-start;
