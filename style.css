@@ -400,6 +400,9 @@ body{
 .todolist{
     background: url('Mídias/toDoList.jpg') center / cover no-repeat;
 }
+.sabis-lanche{
+    background: url('Mídias/sabisLanche.png') center / cover no-repeat;
+}
 .card__descricao{
     display: flex;
     justify-content: center;
