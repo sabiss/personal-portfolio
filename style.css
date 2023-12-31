@@ -282,8 +282,8 @@ body{
 .javascript{
     width: 60%;
 }
-.java{
-    width: 20%;
+.typescript{
+    width: 30%;
 }
 .skills__titulos{
     align-self: flex-start;
@@ -340,12 +340,14 @@ body{
     width: 60%;
 }
 .projetos__cards{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 50%;
 }
 
 .projetos__cards-grid{
-    align-self: center;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
