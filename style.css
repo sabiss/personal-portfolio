@@ -405,6 +405,9 @@ body{
 .sabis-lanche{
     background: url('Mídias/sabisLanche.png') center / cover no-repeat;
 }
+.bibliotecaNERDS{
+    background: url('Mídias/bibliotecaNERDS.jpg') center / cover no-repeat;
+}
 .card__descricao{
     display: flex;
     justify-content: center;
