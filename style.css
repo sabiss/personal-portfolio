@@ -501,6 +501,7 @@ body{
 }
 .redes-sociais{
     display: flex;
+    align-items: center;
     width: 30%; 
 }
 .rede-icons{
@@ -508,7 +509,6 @@ body{
     width: 70%;
 }
 .icon-instagram{
-    padding-left: 0px;
     padding-top: 18px;
     width: 73%;
 }
