@@ -1,313 +1,596 @@
 <!DOCTYPE html>
-<html lang = "pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <title>Sabrina Bezerra</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel = "stylesheet" href = "reset.css">
-        <link rel = "stylesheet" href = "style.css">
-        <link rel = "icon" href = "Mídias/frog-aba-icon.png">
-                                                        <!--Google fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;500&family=Rock+Salt&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header class = "cabecalho">
-            <div class = "cabecalho__box">
-                <div class = "box-logo">
-                    <img src = "Mídias/little-frog.png" class = "frog" alt = "desenho de um sapo com coroa">
-                    <h1 class = "logo-texto">Sabiss</h1>
-                </div>
-                <nav class = "menu">
-                    <ul class = "lista">
-                        <li class = "lista__itens"><a href = "#apresentacao" class = "lista__links">Sobre Mim</a></li>
-                        <li class = "lista__itens"><a href = "#interesses" class = "lista__links">Meus Interesses</a></li>
-                        <li class = "lista__itens"><a href = "#skills" class = "lista__links">Skills</a></li>
-                        <li class = "lista__itens"><a href = "#projetos" class = "lista__links">Projetos</a></li>
-                        <li class = "lista__itens"><a href = "#me-contate" class = "lista__links botao">Me contate</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-        <section><!--Me apresentando-->
-            <div id = "apresentacao">
-                <div class="custom-shape-divider-top-1639687557"><!--Onda do cabeçalho-->
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                    </svg>
-                </div>
-                <div class = "apresentacao__descricao">
-                    <div class = "apresentacao__descricao___textos">
-                        <h1 class = "apresentacao__titulo">Oi! Me chamo<br>Sabrina Bezerra</h1>
-                        <p class = "apresentacao__indroducao">&#9679; Estudante do Instituto Federal do Rio Grande do Norte<br>Campus Avançado Parelhas<br>&#9679; Técnica em Informática<br>&#9679;Participei dos projetos de extensão do <a href="https://plaforedu.mec.gov.br" style="color: black; font-weight: bold;">PlaforEDU</a> e <a href="https://portal.ifrn.edu.br/campus/parelhas/noticias/nucleo-de-extensao-em-robotica-e-desenvolvimento-de-software-do-campus-parelhas-cria-cartilha-com-informacoes-das-atividades-desenvolvidas/" style="color: black; font-weight: bold;">NERDS</a></p> 
-                    </div>
-                    <img src = "Mídias/minha foto.jpg" class = "apresentacao__descricao___foto" alt = "Foto de perfil"> 
-                </div>
-            </div>
-        </section><!--Fim da apresentação-->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sabrina Bezerra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Mídias/frog-aba-icon.png" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;500&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__box">
+        <div class="box-logo">
+          <img
+            src="Mídias/little-frog.png"
+            class="frog"
+            alt="desenho de um sapo com coroa"
+          />
+          <h1 class="logo-texto">Sabiss</h1>
+        </div>
+        <nav class="menu">
+          <ul class="lista">
+            <li class="lista__itens">
+              <a href="#apresentacao" class="lista__links">Sobre Mim</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#interesses" class="lista__links">Meus Interesses</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#skills" class="lista__links">Skills</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#projetos" class="lista__links">Projetos</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#me-contate" class="lista__links botao">Me contate</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        <section id = "interesses"><!--Mostrando meus interesse na área-->
-            <div class ="interesses__box">
-                <div class = "local-da-img">
-                    <img src = "Mídias/undraw_Web_devices_re_m8sc.png" class = "interesses__imagem" alt = "Garota em frente a um computador e celular">
-                </div>
-                <div class = "local-enunciado-e-interesses">
-                    <div class = "interesses__enunciado">
-                        <h2 class = "interesses__enunciado___titulo">Meus Interesses</h2>
-                    </div>
-                    <div class = "interesses__interesses">
-                        <div class = "box-limitadora">
-                            <p class ="interesses__interesses___descricao">Técnica em Informática e entusiasta de Front-End apaixonada por programação e aprendizado contínuo. Com sólidos conhecimentos em JavaScript, HTML e CSS, aprimorei minhas habilidades através de 3 projetos de extensão que participei durante meu curso técnico em informática no IFRN que me proporcionou um contato com a programação de 4 anos. Atualmente, estou explorando o Back-End, focada no aprofundamento dos conceitos do JavaScript com o framework Express e adentrando pouco a pouco no TypeScript</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-shape-divider-bottom-1639945991"><!--rampa de interesses pra skills--->
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-                </svg>
-            </div>
-        </section><!--Fim dos Interesses-->
+    <section>
+      <!--Me apresentando-->
+      <div id="apresentacao">
+        <div class="custom-shape-divider-top-1639687557">
+          <!--Onda do cabeçalho-->
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="apresentacao__descricao">
+          <div class="apresentacao__descricao___textos">
+            <h1 class="apresentacao__titulo">
+              Oi! Me chamo<br />Sabrina Bezerra
+            </h1>
+            <p class="apresentacao__indroducao">
+              &#9679; Estudante do Instituto Federal do Rio Grande do Norte<br />Campus
+              Avançado Parelhas<br />&#9679; Técnica em Informática<br />&#9679;Participei
+              dos projetos de extensão do
+              <a
+                href="https://plaforedu.mec.gov.br"
+                style="color: black; font-weight: bold"
+                >PlaforEDU</a
+              >
+              e
+              <a
+                href="https://portal.ifrn.edu.br/campus/parelhas/noticias/nucleo-de-extensao-em-robotica-e-desenvolvimento-de-software-do-campus-parelhas-cria-cartilha-com-informacoes-das-atividades-desenvolvidas/"
+                style="color: black; font-weight: bold"
+                >NERDS</a
+              >
+            </p>
+          </div>
+          <img
+            src="Mídias/minha foto.jpg"
+            class="apresentacao__descricao___foto"
+            alt="Foto de perfil"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Fim da apresentação-->
 
-        <section><!--Linguagens que sei ou estou aprendendo-->
-            <div id = "skills">
-                <div class = "skills__enunciado"><h2>Skills</h2></div>
-                <div class = "skills-box">
-                    <div class = "linguagens-box">
-                        <img src="Mídias/python-icon.png" class = "icons" alt = "Ícone da linguagem Python">
-                        <div class = "blackBar">
-                            <div class = "progress python"></div>
-                        </div>
-                    </div>
-                    <div class = "linguagens-box">
-                        <img src="Mídias/html-file.png" class = "icons" alt = "Ícone da linguagem HTML">
-                        <div class = "blackBar">
-                            <div class = "progress html"></div>
-                        </div>
-                    </div>
-                    <div class = "linguagens-box">
-                        <img src="Mídias/css-3.png" class = "icons" alt = "ícone da liguagem CSS">
-                        <div class = "blackBar">
-                            <div class = "progress css"></div>
-                        </div>
-                    </div>
-                    <div class = "linguagens-box">
-                        <img src="Mídias/c-.png" class = "icons" alt = "ícone da linguagem c++">
-                        <div class = "blackBar">
-                            <div class = "progress cplusplus"></div>
-                        </div>
-                    </div>
-                    <div class = "linguagens-box">
-                        <img src="Mídias/js-file.png" class = "icons" alt = "Ícone da linguagem JavaScript">
-                        <div class = "blackBar">
-                            <div class = "progress javascript"></div>
-                        </div>
-                    </div>
-                    <div class = "linguagens-box">         
-                        <img src="Mídias//typescript.png" class="icons" alt="Ícone da linguem Typescript">
-                        <div class = "blackBar">
-                            <div class = "progress typescript"></div>
-                        </div>
-                    </div>
-                </div>
+    <section id="interesses">
+      <!--Mostrando meus interesse na área-->
+      <div class="interesses__box">
+        <div class="local-da-img">
+          <img
+            src="Mídias/undraw_Web_devices_re_m8sc.png"
+            class="interesses__imagem"
+            alt="Garota em frente a um computador e celular"
+          />
+        </div>
+        <div class="local-enunciado-e-interesses">
+          <div class="interesses__enunciado">
+            <h2 class="interesses__enunciado___titulo">Meus Interesses</h2>
+          </div>
+          <div class="interesses__interesses">
+            <div class="box-limitadora">
+              <p class="interesses__interesses___descricao">
+                Profissional em Informática e entusiasta de Front-End com
+                experiência de quatro anos em JavaScript, HTML e CSS, adquirida
+                em projetos durante o curso técnico no IFRN. Atualmente,
+                concentro-me no aprimoramento do Back-End com TypeScript e no
+                framewor React.
+              </p>
             </div>
-        </section><!--Fim das skills-->
+          </div>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1639945991">
+        <!--rampa de interesses pra skills--->
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!--Fim dos Interesses-->
 
-        <section id = "projetos"><!--Meus Projetos-->
-            <div class="custom-shape-divider-top-1640293990"><!--entrada entre PORJETOS e SKILLS-->
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-                </svg>
+    <section>
+      <!--Linguagens que sei ou estou aprendendo-->
+      <div id="skills">
+        <div class="skills__enunciado"><h2>Skills</h2></div>
+        <div class="skills-box">
+          <div class="linguagens-box">
+            <img
+              src="Mídias/python-icon.png"
+              class="icons"
+              alt="Ícone da linguagem Python"
+            />
+            <div class="blackBar">
+              <div class="progress python"></div>
             </div>
-            <div class = "projetos__box">
-                <div class = "projetos__enunciado">
-                    <h1>Meus<br><span>Projetos</span></h1>
-                    <img src = "Mídias/undraw_Designer_girl_re_h54c.png" alt = "ilustração garota em frente ao computador" class="projetos__imagem">
-                </div>
+          </div>
+          <div class="linguagens-box">
+            <img
+              src="Mídias/html-file.png"
+              class="icons"
+              alt="Ícone da linguagem HTML"
+            />
+            <div class="blackBar">
+              <div class="progress html"></div>
             </div>
+          </div>
+          <div class="linguagens-box">
+            <img
+              src="Mídias/css-3.png"
+              class="icons"
+              alt="ícone da liguagem CSS"
+            />
+            <div class="blackBar">
+              <div class="progress css"></div>
+            </div>
+          </div>
+          <div class="linguagens-box">
+            <img
+              src="Mídias/c-.png"
+              class="icons"
+              alt="ícone da linguagem c++"
+            />
+            <div class="blackBar">
+              <div class="progress cplusplus"></div>
+            </div>
+          </div>
+          <div class="linguagens-box">
+            <img
+              src="Mídias/js-file.png"
+              class="icons"
+              alt="Ícone da linguagem JavaScript"
+            />
+            <div class="blackBar">
+              <div class="progress javascript"></div>
+            </div>
+          </div>
+          <div class="linguagens-box">
+            <img
+              src="Mídias//typescript.png"
+              class="icons"
+              alt="Ícone da linguem Typescript"
+            />
+            <div class="blackBar">
+              <div class="progress typescript"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fim das skills-->
 
-            <div class = "projetos__cards">
-                <div class = "projetos__cards-grid">
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>Sebão's Clínica</h3>
-                        </div>
-                        <div class = "card__imagem sebao-clinica"></div>
-                        <div class = "card__descricao">
-                            <p>Foi o meu primeiro contato com as ferramentas de HTML5 e CSS3. Fiz este site para ir praticando o que aprendia nos cursos. Não é um site sério como se pode perceber pelo nome rs, fiz na brincadeira</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://sabiss.github.io/site_clinica/" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>CRUD em C++</h3>
-                        </div>
-                        <div class = "card__imagem crud"></div>
-                        <div class = "card__descricao">
-                            <p>Um CRUD consiste em um sistema que adiciona, edita, lista e deleta algum tipo de dado. Neste projeto fiz um bem simples em c++ para um trabalho da matéria de Fundamentos a Lógica e Algoritmo</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://github.com/sabiss/ProjetoCRUD-.git" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>CRUD com POO</h3>
-                        </div>
-                        <div class = "CRUD2"></div>
-                        <div class = "card__descricao">
-                            <p>CRUD feito em Python com POO. Escrevi este código para um projeto da disciplina de Programação Estruturada e Orientada a Objetos</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://github.com/sabiss/Python-CRUD" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>Festival SabisMix</h3>
-                        </div>
-                        <div class = "sabismix"></div>
-                        <div class = "card__descricao">
-                            <p>O Festival de música SabisMix conta com diversas atrações musicais e uma festa gastronômica. Fiz essa Panding Page como etapa para conclusão do curso de Design Responsivo para Web do <a href = "https://www.freecodecamp.org">FreeCodeCamp</a></p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://sabiss.github.io/landingpage-sabismix/" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>SabisTravels</h3>
-                        </div>
-                        <div class = "card__imagem form"></div>
-                        <div class = "card__descricao">
-                            <p>Formulário de cadastramento para viajar com a agencia SabisTravels. Fiz este formulário para completar as exigências de conclusão do curso em Design Responsivo para Web do <a href = "https://www.freecodecamp.org">FreeCodeCamp</a></p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://sabiss.github.io/registration-form/" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>Dashboard</h3>
-                        </div>
-                        <div class = "card__imagem dashboard"></div>
-                        <div class = "card__descricao dashboard-descricao">
-                            <p>Construí este Dashbard para o desafio da bolsa do projeto ProEdu que consistia em reproduzir um modelo de Dashboard fornecido por eles o mais fiel possível. Para fazer esse código tive o primeiro contato com a biblioteca Charts.JS para construção dos gráficos. O site mobile conta com dois eventos, um na barra de menu e outro na área de pesquisa</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://sabiss.github.io/dashboard-challenge/" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>Calculadora</h3>
-                        </div>
-                        <div class = "card__imagem calculadora"></div>
-                        <div class = "card__descricao">
-                            <p>Calculadora feita com HTML, CSS e JavaScript. Meu primeiro projeto com foco em JavaScript. A calculadora é funcional e faz operações simples</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://sabiss.github.io/calculator/" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>PadMemes</h3>
-                        </div>
-                        <div class = "card__imagem padmemes"></div>
-                        <div class = "card__descricao">
-                            <p>Inspirada em um DjPad fiz um DjPad mas com memes, onde o usuário pode controlar os memes padrões do controle e também pode adicionar os seus próprios memes</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://sabiss.github.io/PadMemes/" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>Weather Forecast</h3>
-                        </div>
-                        <div class = "card__imagem weatherForecast"></div>
-                        <div class = "card__descricao">
-                            <p>Site para ver a previsão do tempo de um determinado local desejado. Feito usando as tecnologias de HTML5, CSS3 e Javascript. Nesse projeto tive o meu primeiro contato com API's. Nele foram usadas a API One Call do <a href = "https://openweathermap.org/api">OpenWeatherMap</a> e a API de pesquisa de fotos do <a href="https://www.flickr.com/services/api/flickr.photos.search.html">Flickr</a></p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://sabiss.github.io/weatherForecastConsultant/" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>ToDoList com Angular</h3>
-                        </div>
-                        <div class = "todolist"></div>
-                        <div class = "card__descricao">
-                            <p>O site é composto por uma lista de tarefas que, assim como as demais, exibe as tarefas que o usuário precisa realizar durante o dia.Fiz esse projeto para exercitar os conceitos aprendidos com o Angular. É o meu primeiro código usando este framework.</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://github.com/sabiss/angular-toDoList" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>CRUD bancário em Java</h3>
-                        </div>
-                        <div class = "card__imagem crud"></div>
-                        <div class = "card__descricao">
-                            <p>Um CRUD simples de banco onde exercitei meus conhecimentos em POO em Java</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://github.com/sabiss/JavaBank" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>SabisLanche</h3>
-                        </div>
-                        <div class = "card__imagem sabis-lanche"></div>
-                        <div class = "card__descricao">
-                            <p>Site que contém as tecnologias básicas do front-end + <span style="font-weight: bold;">Bootstrap + Conecxão com API + conhecimentossobre Clean Code</span> do livro "Código Limpo - Robert Cecil Martin". Consiste em um CRUD de pedidos delivery que são armazenados na API Mock</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://github.com/sabiss/SabisLanche" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                    <div class = "card">
-                        <div class = "card__titulo">
-                            <h3>BibliotecaNERDS</h3>
-                        </div>
-                        <div class = "card__imagem bibliotecaNERDS"></div>
-                        <div class = "card__descricao">
-                            <p>Sistema de gerenciamento de biblioteca feito com os frameworks Bootstrap e Express com TypeScript. O Sistema foi feito para ser utilizado em uma escola na cidade de Mossoró-RN</p>
-                        </div>
-                        <div class = "card__botao">
-                            <a href = "https://github.com/sabiss/bibliotecaNERDS" target="_blank">Ver Projeto</a>
-                        </div>
-                    </div>
-                </div>
+    <section id="projetos">
+      <!--Meus Projetos-->
+      <div class="custom-shape-divider-top-1640293990">
+        <!--entrada entre PORJETOS e SKILLS-->
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="projetos__box">
+        <div class="projetos__enunciado">
+          <h1>Meus<br /><span>Projetos</span></h1>
+          <img
+            src="Mídias/undraw_Designer_girl_re_h54c.png"
+            alt="ilustração garota em frente ao computador"
+            class="projetos__imagem"
+          />
+        </div>
+      </div>
+
+      <div class="projetos__cards">
+        <div class="projetos__cards-grid">
+          <div class="card">
+            <div class="card__titulo">
+              <h3>BibliotecaNERDS</h3>
             </div>
-        </section>
-        <footer id = "me-contate"><!--Parte dos contatos e redes sociais-->
-            <div class="custom-shape-divider-top-1639735131">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                </svg>
+            <div class="card__imagem bibliotecaNERDS"></div>
+            <div class="card__descricao">
+              <p>
+                Sistema de gerenciamento de biblioteca feito com os frameworks
+                Bootstrap e Express com TypeScript. O Sistema foi feito para ser
+                utilizado em uma escola na cidade de Mossoró-RN
+              </p>
             </div>
-                <div class = "contatos">
-                    <div class = "enunciado-contatos"><h1 class = "titulo-contatos">Contatos</h1></div>
-                    <div class = "formas-de-contato">
-                        <div class = "redes-sociais">
-                            <a href="mailto:sabissdev@gmail.com?subject=Olá Sabrina!&body=Corpo do Email"><img src = "Mídias/letter-icon.png" alt = "ícone de carta" title="sabissdev@gmail.com" class="rede-icons"></a>
-                            <a href = "https://www.instagram.com/imsabis/" target="_blank"><img src = "Mídias/icons8-instagram-128.png" alt = "logo do Instagram" class = "rede-icons icon-instagram"></a>
-                            <a href = "https://www.github.com/sabiss" target="_blank"><img src = "Mídias/icons8-github-128.png" alt = "logo do GitHub" class = "rede-icons"></a>
-                            <a href = "https://www.linkedin.com/in/sabrina-bezerra-173007267/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" class="rede-icons" alt="logo do linkedin"></a>
-                        </div>
-                    </div>
-                </div>
-        </footer>
-    </body>
+            <div class="card__botao">
+              <a
+                href="https://github.com/sabiss/bibliotecaNERDS"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>SabisLanche</h3>
+            </div>
+            <div class="card__imagem sabis-lanche"></div>
+            <div class="card__descricao">
+              <p>
+                Site que contém as tecnologias básicas do front-end +
+                <span style="font-weight: bold"
+                  >Bootstrap + Conecxão com API + conhecimentossobre Clean
+                  Code</span
+                >
+                do livro "Código Limpo - Robert Cecil Martin". Consiste em um
+                CRUD de pedidos delivery que são armazenados na API Mock
+              </p>
+            </div>
+            <div class="card__botao">
+              <a href="https://github.com/sabiss/SabisLanche" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>Clínica Gabriela Bezerra</h3>
+            </div>
+            <div class="card__imagem clinicaGabrielaBezerra"></div>
+            <div class="card__descricao">
+              <p>
+                Landing Page feita para apresentação da Dra. Gabriela Bezerra
+                para o mercado. O site foi feito com o framework TailwindCSS no
+                qual gostei muito pelo modo que organiza a responsividade
+              </p>
+            </div>
+            <div class="card__botao">
+              <a
+                href="https://github.com/sabiss/clinicaDraGabrielaBezerra"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>ToDoList com Angular</h3>
+            </div>
+            <div class="todolist"></div>
+            <div class="card__descricao">
+              <p>
+                O site é composto por uma lista de tarefas que, assim como as
+                demais, exibe as tarefas que o usuário precisa realizar durante
+                o dia.Fiz esse projeto para exercitar os conceitos aprendidos
+                com o Angular. É o meu primeiro código usando este framework.
+              </p>
+            </div>
+            <div class="card__botao">
+              <a
+                href="https://github.com/sabiss/angular-toDoList"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>Sebão's Clínica</h3>
+            </div>
+            <div class="card__imagem sebao-clinica"></div>
+            <div class="card__descricao">
+              <p>
+                Foi o meu primeiro contato com as ferramentas de HTML5 e CSS3.
+                Fiz este site para ir praticando o que aprendia nos cursos. Não
+                é um site sério como se pode perceber pelo nome rs, fiz na
+                brincadeira
+              </p>
+            </div>
+            <div class="card__botao">
+              <a href="https://sabiss.github.io/site_clinica/" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>Festival SabisMix</h3>
+            </div>
+            <div class="sabismix"></div>
+            <div class="card__descricao">
+              <p>
+                O Festival de música SabisMix conta com diversas atrações
+                musicais e uma festa gastronômica. Fiz essa Panding Page como
+                etapa para conclusão do curso de Design Responsivo para Web do
+                <a href="https://www.freecodecamp.org">FreeCodeCamp</a>
+              </p>
+            </div>
+            <div class="card__botao">
+              <a
+                href="https://sabiss.github.io/landingpage-sabismix/"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>SabisTravels</h3>
+            </div>
+            <div class="card__imagem form"></div>
+            <div class="card__descricao">
+              <p>
+                Formulário de cadastramento para viajar com a agencia
+                SabisTravels. Fiz este formulário para completar as exigências
+                de conclusão do curso em Design Responsivo para Web do
+                <a href="https://www.freecodecamp.org">FreeCodeCamp</a>
+              </p>
+            </div>
+            <div class="card__botao">
+              <a
+                href="https://sabiss.github.io/registration-form/"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>Dashboard</h3>
+            </div>
+            <div class="card__imagem dashboard"></div>
+            <div class="card__descricao dashboard-descricao">
+              <p>
+                Construí este Dashbard para o desafio da bolsa do projeto ProEdu
+                que consistia em reproduzir um modelo de Dashboard fornecido por
+                eles o mais fiel possível. Para fazer esse código tive o
+                primeiro contato com a biblioteca Charts.JS para construção dos
+                gráficos. O site mobile conta com dois eventos, um na barra de
+                menu e outro na área de pesquisa
+              </p>
+            </div>
+            <div class="card__botao">
+              <a
+                href="https://sabiss.github.io/dashboard-challenge/"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>Calculadora</h3>
+            </div>
+            <div class="card__imagem calculadora"></div>
+            <div class="card__descricao">
+              <p>
+                Calculadora feita com HTML, CSS e JavaScript. Meu primeiro
+                projeto com foco em JavaScript. A calculadora é funcional e faz
+                operações simples
+              </p>
+            </div>
+            <div class="card__botao">
+              <a href="https://sabiss.github.io/calculator/" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>PadMemes</h3>
+            </div>
+            <div class="card__imagem padmemes"></div>
+            <div class="card__descricao">
+              <p>
+                Inspirada em um DjPad fiz um DjPad mas com memes, onde o usuário
+                pode controlar os memes padrões do controle e também pode
+                adicionar os seus próprios memes
+              </p>
+            </div>
+            <div class="card__botao">
+              <a href="https://sabiss.github.io/PadMemes/" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>Weather Forecast</h3>
+            </div>
+            <div class="card__imagem weatherForecast"></div>
+            <div class="card__descricao">
+              <p>
+                Site para ver a previsão do tempo de um determinado local
+                desejado. Feito usando as tecnologias de HTML5, CSS3 e
+                Javascript. Nesse projeto tive o meu primeiro contato com API's.
+                Nele foram usadas a API One Call do
+                <a href="https://openweathermap.org/api">OpenWeatherMap</a> e a
+                API de pesquisa de fotos do
+                <a
+                  href="https://www.flickr.com/services/api/flickr.photos.search.html"
+                  >Flickr</a
+                >
+              </p>
+            </div>
+            <div class="card__botao">
+              <a
+                href="https://sabiss.github.io/weatherForecastConsultant/"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>CRUD bancário em Java</h3>
+            </div>
+            <div class="card__imagem crud"></div>
+            <div class="card__descricao">
+              <p>
+                Um CRUD simples de banco onde exercitei meus conhecimentos em
+                POO em Java
+              </p>
+            </div>
+            <div class="card__botao">
+              <a href="https://github.com/sabiss/JavaBank" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>CRUD em C++</h3>
+            </div>
+            <div class="card__imagem crud"></div>
+            <div class="card__descricao">
+              <p>
+                Um CRUD consiste em um sistema que adiciona, edita, lista e
+                deleta algum tipo de dado. Neste projeto fiz um bem simples em
+                c++ para um trabalho da matéria de Fundamentos a Lógica e
+                Algoritmo
+              </p>
+            </div>
+            <div class="card__botao">
+              <a
+                href="https://github.com/sabiss/ProjetoCRUD-.git"
+                target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__titulo">
+              <h3>CRUD com POO</h3>
+            </div>
+            <div class="CRUD2"></div>
+            <div class="card__descricao">
+              <p>
+                CRUD feito em Python com POO. Escrevi este código para um
+                projeto da disciplina de Programação Estruturada e Orientada a
+                Objetos
+              </p>
+            </div>
+            <div class="card__botao">
+              <a href="https://github.com/sabiss/Python-CRUD" target="_blank"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="me-contate">
+      <!--Parte dos contatos e redes sociais-->
+      <div class="custom-shape-divider-top-1639735131">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="contatos">
+        <div class="enunciado-contatos">
+          <h1 class="titulo-contatos">Contatos</h1>
+        </div>
+        <div class="formas-de-contato">
+          <div class="redes-sociais">
+            <a
+              href="mailto:sabissdev@gmail.com?subject=Olá Sabrina!&body=Corpo do Email"
+              ><img
+                src="Mídias/letter-icon.png"
+                alt="ícone de carta"
+                title="sabissdev@gmail.com"
+                class="rede-icons"
+            /></a>
+            <a href="https://www.instagram.com/imsabis/" target="_blank"
+              ><img
+                src="Mídias/icons8-instagram-128.png"
+                alt="logo do Instagram"
+                class="rede-icons icon-instagram"
+            /></a>
+            <a href="https://www.github.com/sabiss" target="_blank"
+              ><img
+                src="Mídias/icons8-github-128.png"
+                alt="logo do GitHub"
+                class="rede-icons"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/sabrina-bezerra-173007267/"
+              target="_blank"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+                class="rede-icons"
+                alt="logo do linkedin"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
